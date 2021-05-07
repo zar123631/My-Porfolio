@@ -1,0 +1,60 @@
+@import url(utilities.css);
+
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Times New Roman', Times, serif;
+}
+header {
+  background-color: black;
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 70% 87%, 0 100%);
+}
+.container {
+  max-width: 1152px;
+  padding: 15px;
+  margin: auto;
+}
+header nav .left a {
+  color: white;
+  text-decoration: none;
+  margin-right: 2rem;
+  text-transform: uppercase;
+}
+
+header nav .left a:hover {
+  color: paleturquoise;
+}
+
+header nav {
+  padding: 2rem;
+}
+header nav .branding {
+  margin-right: 3rem;
+}
+.hero .left img {
+  width: 400px;
+}
+.hero .right {
+  color: white;
+}
+
+.hero .right h4 {
+  font-size: 1.6rem;
+  color: turquoise
+}
+.hero .right h1 {
+    font-size: 4rem;
+    font-weight: 100px;
+    line-height: 1.2;
+    margin-bottom: 2rem;
+}
+.hero .right h1 span {
+    color: turquoise;
+}
+.hero .right p {
+    line-height: 1.9;
+    margin-bottom: 2rem;
+}
